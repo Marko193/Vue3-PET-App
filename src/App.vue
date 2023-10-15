@@ -31,14 +31,14 @@ export default {
   methods: {
     createPost(post) {
       this.posts.push(post);
-      // console.log('post', post);
+      console.log('post', post);
     }
   }
 }
 </script>
 
 <style>
-//
+
 * {
   margin: 0;
   padding: 0;
