@@ -31,7 +31,7 @@ export default {
   methods: {
     createPost() {
       this.post.id = Date.now();
-      console.log('this.post', this.post)
+      // console.log('this.post', this.post)
       this.$emit('create', this.post);
       this.post = {
         title: '',
