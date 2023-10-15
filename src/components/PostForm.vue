@@ -4,13 +4,13 @@
     <my-input
         type="text"
         placeholder="Название"
-        v-model="post.title"
+        v-model.trim="post.title"
     />
 
     <my-input
         type="text"
         placeholder="Описание"
-        v-model="post.body"
+        v-model.trim="post.body"
     />
 
     <my-button class="btn" @click="createPost">Create</my-button>
